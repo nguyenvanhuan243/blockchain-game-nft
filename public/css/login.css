@@ -1,0 +1,23 @@
+body{background-color: black;}
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("/images/bomb.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#installMM{color:red; float: right; margin:20px;}
+
+#btn_connect_MM{width: 20%; min-width: 200px; float:right; margin:20px; cursor: pointer;}
+.txt{float:right; clear: both; padding-right: 20px; color: yellow;}

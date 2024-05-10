@@ -1,0 +1,32 @@
+{
+  "name": "zombiepets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "body-parser": "^1.19.1",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-http-to-https": "^1.1.4",
+    "forever": "^4.0.3",
+    "https": "^1.0.0",
+    "mongoose": "^6.1.5",
+    "mongoose-sequence": "^5.3.1",
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.2.0",
+    "socket.io": "^4.4.1",
+    "util": "^0.12.4",
+    "web3": "^1.8.1",
+    "web3-eth-contract": "^1.7.0",
+    "web3.js-browser": "^0.2.0"
+  }
+}
